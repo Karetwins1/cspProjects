@@ -2,6 +2,8 @@ void setup() {
   // initialize digital pin LED_BUILTIN as
   Serial.begin(9600); 
   Serial.println("love you");
+  Serial.println("send 'on' to turn on the LED.");
+  Serial.println("send 'off' to turn off the LED.");
   pinMode(LED_BUILTIN, OUTPUT);
 }
 
