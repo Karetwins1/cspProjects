@@ -1,5 +1,6 @@
+// Fade makes so instead of just lighting up a LED it go up and down with ammounts of light  
 void setup() {
-  Serial.begin(9600);
+   Serial.begin(9600);
   pinMode(9, OUTPUT);
 
 }
